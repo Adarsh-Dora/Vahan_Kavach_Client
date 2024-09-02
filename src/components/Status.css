@@ -1,0 +1,75 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.car-image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.metrics div {
+  flex: 1;
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* src/components/Status.css */
+.status-item {
+  display: flex;
+  align-items: center;
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.status-item .status-text {
+  margin-left: 10px;
+}
+
+.battery-status {
+  background-color: #f0f8ff;
+}
+
+.fuel-status {
+  background-color: #fffacd;
+}
+
+.tire-pressure {
+  background-color: #e0ffff;
+}
+
+.tire-temperature {
+  background-color: #ffe4e1;
+}
+
+.ac-status.on {
+  background-color: #98fb98;
+}
+
+.ac-status.off {
+  background-color: #f08080;
+}
+
+.status-text p {
+  margin: 0;
+  color: #333;
+}

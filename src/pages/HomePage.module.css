@@ -1,0 +1,14 @@
+.homepage {
+  margin: 3.2 rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img {
+  height: 32rem;
+
+  padding: 2.4rem;
+}
